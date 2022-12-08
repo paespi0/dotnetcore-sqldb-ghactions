@@ -1,5 +1,7 @@
 name: Create Azure Resources
-on: 
+on:
+    workflow_dispatch:
+    
     push:
         paths: 
         - 'ARM/**'
